@@ -1,0 +1,19 @@
+# Directorio raíz (el punto indica "carpeta actual")
+path: .
+
+# Rutas a las imágenes
+train: images/train
+
+# IMPORTANTE: Como estás haciendo auto-labeling y labels/val está vacío,
+# usa 'images/train' también para validar durante el entrenamiento.
+# Si pones 'images/val' sin etiquetas, tus gráficas saldrán en 0.
+val: images/train 
+# val: images/val  <-- Descomenta esto SOLO cuando ya tengas los txt generados
+
+# Nombre de las clases
+names:
+  0: salmon
+
+# Configuración de Keypoints
+# [número de puntos, dimensiones] -> 4 puntos, (x, y, visibilidad)
+kpt_shape: [4, 3]

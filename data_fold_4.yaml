@@ -1,0 +1,12 @@
+path: C:\Users\usuario\Desktop\salmons_pose_project
+train:
+- C:\Users\usuario\Desktop\salmons_pose_project\images\fold1
+- C:\Users\usuario\Desktop\salmons_pose_project\images\fold2
+- C:\Users\usuario\Desktop\salmons_pose_project\images\fold3
+- C:\Users\usuario\Desktop\salmons_pose_project\images\fold5
+val: C:\Users\usuario\Desktop\salmons_pose_project\images\fold4
+names:
+  0: salmon
+kpt_shape:
+- 4
+- 3

@@ -1,0 +1,23 @@
+# Ignore entorno virtual
+.venv/
+
+# Ignore archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore carpetas de Ultralytics/YOLO
+runs/
+weights/
+labels/test_pred/
+predictions_test/
+
+# Ignore modelos grandes
+*.pt
+
+# Ignore notebooks cache
+.ipynb_checkpoints/
+
+# Ignore config temporal
+*.yaml~
